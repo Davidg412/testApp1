@@ -5,8 +5,9 @@
         static void Main(string[] args)
         {
             var greeting = "Hello";
+            var planet = "Earth";
             var ending = "World";
-            Console.WriteLine($"{greeting} { ending}");
+            Console.WriteLine($"{greeting} {planet} {ending}");
         }
     }
 }
